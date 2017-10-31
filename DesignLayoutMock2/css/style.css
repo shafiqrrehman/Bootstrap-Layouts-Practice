@@ -1,0 +1,26 @@
+body {
+    background-color: #E8E8E7;
+}
+
+.blank-background {
+    background-color: #8BCC98;
+}
+
+.img-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.back-color {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    margin-right: -4px;
+}
