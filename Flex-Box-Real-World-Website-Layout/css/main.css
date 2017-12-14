@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 700px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.form-row {
+    padding: 10px;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+.column-layout {
+    max-width: 1050px;
+    background-color: #fff;
+    margin: 40px auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.main-column {
+    flex: 3;
+    order: 2;
+    margin-right: 40px;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+    margin-right: 40px;
+}
+
+.sidebar-two {
+    flex: 1;
+    order: 3;
+}
